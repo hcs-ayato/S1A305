@@ -41,14 +41,29 @@ main {
   color: #504643;
   margin-bottom: 40px;
 }
-h2 { margin-bottom: 20px; }
-p { margin-bottom: 1em; }
+h2 { margin-bottom: 20px; font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Reggae One', cursive;
+  font-family: 'RocknRoll One', sans-serif;}
+p { margin-bottom: 1em; font-size: 1.15em;}
 em {
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-weight: bold;
   color: #196f6a;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Reggae One', cursive;
+  font-family: 'RocknRoll One', sans-serif;
 }
 
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+body{
+  background: #504643 url(wood.jpg) left top repeat;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+li{flex: 1 1 20%;}
