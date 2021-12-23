@@ -149,6 +149,7 @@ li {
 }
 
 .main-visual-inner {
+  max-width: 85%;
   padding: 0 40px;
 }
 
@@ -366,6 +367,10 @@ li {
   margin-bottom: 3px;
 }
 
+.skill-text{
+  list-style: square;
+}
+
 /*--------------------------------
  About
 ---------------------------------*/
@@ -541,6 +546,7 @@ li {
   }
 
   .main-visual-inner {
+    max-width: 50%;
     padding: 0 20px;
   }
 
@@ -556,7 +562,7 @@ li {
     display: block;
   }
   .main-visual-img {
-    width: 150px;
+    width: 50px;
     margin: 0 auto;
     margin-bottom: 25px;
   }
